@@ -2,115 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="628025f2-a482-48e4-a63b-6bcea69e9fa3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/onem2m-client.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/onem2m-client-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/onem2m-client-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AE.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AE.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AEAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AEAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AccessControlPolicy.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AccessControlPolicy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AccessControlPolicyAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AccessControlPolicyAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AccessControlRule.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AccessControlRule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ActionStatus.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ActionStatus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ActiveCmdhPolicy.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ActiveCmdhPolicy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AggregatedNotification.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AggregatedNotification.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AggregatedRequest.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AggregatedRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AggregatedResponse.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AggregatedResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AnnounceableResource.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AnnounceableResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AnnounceableSubordinateResource.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AnnounceableSubordinateResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AnnouncedMgmtResource.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AnnouncedMgmtResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AnnouncedResource.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AnnouncedResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AnnouncedSubordinateResource.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AnnouncedSubordinateResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AnyArgType.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AnyArgType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AreaNwkDeviceInfo.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AreaNwkDeviceInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AreaNwkDeviceInfoAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AreaNwkDeviceInfoAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AreaNwkInfo.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AreaNwkInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AreaNwkInfoAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AreaNwkInfoAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Attribute.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Attribute.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AttributeList.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AttributeList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/BatchNotify.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/BatchNotify.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Battery.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Battery.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/BatteryAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/BatteryAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CSEBase.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CSEBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ChildResourceRef.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ChildResourceRef.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CmdhBuffer.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CmdhBuffer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CmdhDefEcValue.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CmdhDefEcValue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CmdhDefaults.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CmdhDefaults.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CmdhEcDefParamValues.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CmdhEcDefParamValues.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CmdhLimits.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CmdhLimits.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CmdhNetworkAccessRules.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CmdhNetworkAccessRules.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CmdhNwAccessRule.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CmdhNwAccessRule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CmdhPolicy.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CmdhPolicy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Container.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Container.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ContainerAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ContainerAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ContentInstance.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ContentInstance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ContentInstanceAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ContentInstanceAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/CreateTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/CreateTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Delivery.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Delivery.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/DeliveryMetaData.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/DeliveryMetaData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/DeviceCapability.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/DeviceCapability.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/DeviceCapabilityAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/DeviceCapabilityAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/DeviceInfo.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/DeviceInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/DeviceInfoAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/DeviceInfoAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/DownloadArgsType.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/DownloadArgsType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/EventConfig.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/EventConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/EventLog.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/EventLog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/EventLogAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/EventLogAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/EventNotificationCriteria.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/EventNotificationCriteria.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ExecInstance.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ExecInstance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ExecReqArgsListType.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ExecReqArgsListType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/FilterCriteria.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/FilterCriteria.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Firmware.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Firmware.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/FirmwareAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/FirmwareAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Group.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Group.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/GroupAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/GroupAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/LocationPolicy.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/LocationPolicy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/LocationPolicyAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/LocationPolicyAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/LocationRegion.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/LocationRegion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/M2MServiceSubscriptionProfile.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/M2MServiceSubscriptionProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Memory.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Memory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/MemoryAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/MemoryAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/MetaInformation.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/MetaInformation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/MgmtCmd.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/MgmtCmd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/MgmtLinkRef.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/MgmtLinkRef.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/MgmtResource.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/MgmtResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Node.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Node.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/NodeAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/NodeAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Notification.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Notification.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ObjectFactory.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ObjectFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/OperationResult.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/OperationResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/PollingChannel.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/PollingChannel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/PrimitiveContent.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/PrimitiveContent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/RateLimit.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/RateLimit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Reboot.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Reboot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/RebootAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/RebootAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/RebootArgsType.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/RebootArgsType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/RegularResource.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/RegularResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/RemoteCSE.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/RemoteCSE.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/RemoteCSEAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/RemoteCSEAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Request.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Request.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/RequestPrimitive.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/RequestPrimitive.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ResetArgsType.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ResetArgsType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Resource.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Resource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ResourceWrapper.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ResourceWrapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ResponsePrimitive.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ResponsePrimitive.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ResponseTypeInfo.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ResponseTypeInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Schedule.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Schedule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ScheduleAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ScheduleAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ScheduleEntries.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ScheduleEntries.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ServiceSubscribedAppRule.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ServiceSubscribedAppRule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ServiceSubscribedNode.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ServiceSubscribedNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/SetOfAcrs.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/SetOfAcrs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Software.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Software.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/SoftwareAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/SoftwareAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/SoftwareInstallArgsType.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/SoftwareInstallArgsType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/SoftwareUninstallArgsType.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/SoftwareUninstallArgsType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/SoftwareUpdateArgsType.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/SoftwareUpdateArgsType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/StatsCollect.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/StatsCollect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/StatsConfig.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/StatsConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Subscription.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Subscription.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-CreateTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-CreateTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/UploadArgsType.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/UploadArgsType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/package-info.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/package-info.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CreateTest.java" afterPath="$PROJECT_DIR$/src/test/java/CreateTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="onem2m-client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -135,8 +29,8 @@
       <file leaf-file-name="CreateTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CreateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.281859">
-              <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.4047976">
+              <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,8 +51,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -167,7 +61,7 @@
       <file leaf-file-name="Http.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/impl/Http.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding />
             </state>
@@ -177,7 +71,7 @@
       <file leaf-file-name="Prepare.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/util/Prepare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.555555">
+            <state vertical-scroll-proportion="0.0">
               <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
               <folding />
             </state>
@@ -207,8 +101,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/util/Prepare.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AE.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/impl/Http.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CreateTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/XSDbundle-v1_2_0/CDT-AE-v1_2_0.xsd" />
+        <option value="$PROJECT_DIR$/src/test/java/CreateTest.java" />
       </list>
     </option>
   </component>
@@ -233,8 +127,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="462" />
-    <option name="y" value="27" />
+    <option name="x" value="1247" />
+    <option name="y" value="23" />
     <option name="width" value="1690" />
     <option name="height" value="960" />
   </component>
@@ -261,65 +155,12 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iotdm-client-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iotdm-client-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iotdm-client-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iotdm-client-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iotdm-client-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iotdm-client-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iotdm-client-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -528,7 +369,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="462" y="27" width="1690" height="960" extended-state="0" />
+    <frame x="1247" y="23" width="1690" height="960" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -544,7 +385,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294903" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27184466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27184466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -593,6 +434,48 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CreateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/XSDbundle-v1_2_0/CDT-AE-v1_2_0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="31" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/impl/Http.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/util/Prepare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CreateTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -661,7 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,12 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
-          <folding>
-            <element signature="e#2922#2923#0" expanded="true" />
-            <element signature="e#2966#2967#0" expanded="true" />
-            <element signature="e#11040#11204#0" expanded="true" />
-            <element signature="e#11203#11204#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -689,10 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="e#1464#1658#0" expanded="false" />
-            <element signature="e#1657#1658#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,15 +586,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/util/Prepare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.555555">
+        <state vertical-scroll-proportion="0.0">
           <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
           <folding />
         </state>
@@ -738,8 +610,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CreateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.281859">
-          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.4047976">
+          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

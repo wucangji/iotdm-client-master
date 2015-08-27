@@ -28,16 +28,17 @@ public class CreateTest {
     public void createAE(){
         //AE Resource to be created
         AE ae=new AE();
-        ae.setAppName("1234");
-        ae.setAppID("5678");
-        ae.setOntologyRef("iphone");
+        ae.setAppName("testAppName");
+        ae.setAppID("testAppId");
+        ae.setOntologyRef("http://ontology/ref");
         //Request carrying AE to be created.
+
         RequestPrimitive requestPrimitive=new RequestPrimitive();
-        requestPrimitive.setFrom("local");
+        requestPrimitive.setFrom("Test_AE_ID");
         //Set Destination from root of Resource for creation
-        requestPrimitive.setTo("InCSE1");
+        requestPrimitive.setTo("ODL-oneM2M-Cse");
         //Resource Name of resource to be created
-        requestPrimitive.setName("AE1");
+        requestPrimitive.setName("TestAE");
         //Set OneM2m Operation
         requestPrimitive.setOperation(OneM2M.Operation.CREATE.value());
         requestPrimitive.setRequestIdentifier("12345");

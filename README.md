@@ -177,6 +177,10 @@ public void createAE(){
 
 ![](Figure2.png)
 
+![](Figure6.png)
+
+![](Figure7.png)
+
 ####Update AE
 ```java
 public void update(){
@@ -269,7 +273,7 @@ public void update(){
 ![](Figure4.png)
 
 
-Notice
+About the test
 ====
 
 1. the Test order is random, so sometomes you will **see failure such as cannot find the resource**,  
