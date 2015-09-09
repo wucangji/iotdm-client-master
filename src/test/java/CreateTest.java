@@ -31,6 +31,7 @@ public class CreateTest {
         ae.setAppName("testAppName");
         ae.setAppID("testAppId");
         ae.setOntologyRef("http://ontology/ref");
+
         //Request carrying AE to be created.
 
         RequestPrimitive requestPrimitive=new RequestPrimitive();
@@ -182,5 +183,63 @@ public class CreateTest {
         http.send(exchange);
         http.stop();
         System.out.println(exchange.toString());
+    }
+
+    @Test
+    public void createContentInstanceUnderContainer(){
+        //Container Resource to be created
+        Container container=new Container();
+        container.setOntologyRef("container");
+        //Request carrying Container to be created.
+        RequestPrimitive requestPrimitive=new RequestPrimitive();
+        requestPrimitive.setFrom("local");
+        //Set Destination under which a container will be created
+        requestPrimitive.setTo("InCSE1");
+        //Resource Name of container to be created
+        requestPrimitive.setName("container2");
+        //Set OneM2m Operation
+        requestPrimitive.setOperation(OneM2M.Operation.CREATE.value());
+        requestPrimitive.setRequestIdentifier("12345");
+        //Set ResourceType to be created
+        requestPrimitive.setResourceType(OneM2M.ResourceType.CONTAINER.value());
+        requestPrimitive.setPrimitiveContent(new PrimitiveContent());
+        //Request carry resource content
+        requestPrimitive.getPrimitiveContent().getAny().add(container);
+
+        //Exchange carry the content of request and destination of request
+        Exchange exchange=new Exchange();
+        exchange.setHost("localhost");
+        exchange.setPort("8282");
+        exchange.setRequestPrimitive(requestPrimitive);
+
+        //Initialization of Http client responsible for transmission.
+        Http http=new Http();
+        http.start();
+        http.setContentType(OneM2M.ResourceType.CONTAINER.value());
+        http.send(exchange);
+        http.stop();
+        System.out.println(exchange.toString());
+
+
+        RequestPrimitive primitive = new RequestPrimitive();
+        primitive.setOperation(OneM2M.Operation.CREATE.value());
+        primitive.setFrom("dslink");
+        primitive.setTo("InCSE1/container2");
+        primitive.setRequestIdentifier("12345");
+        ContentInstance conIn = new ContentInstance();
+        conIn.setContent("contententdssds");
+
+        primitive.setPrimitiveContent(new PrimitiveContent());
+        primitive.getPrimitiveContent().getAny().add(conIn);
+
+        exchange.setRequestPrimitive(primitive);
+
+        http.start();
+        http.setContentType(OneM2M.ResourceType.CONTENT_INSTANCE.value());
+        http.send(exchange);
+        http.stop();
+        System.out.println(exchange.toString());
+
+
     }
 }

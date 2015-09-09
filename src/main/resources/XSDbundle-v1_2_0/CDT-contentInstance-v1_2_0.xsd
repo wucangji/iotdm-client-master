@@ -41,7 +41,7 @@ oneM2M EXPRESSLY ADVISES ANY AND ALL USE OF OR RELIANCE UPON THIS INFORMATION PR
 						<xs:element name="contentInfo" type="m2m:contentInfo" minOccurs="0" />
 						<xs:element name="contentSize" type="xs:nonNegativeInteger" />
 						<xs:element name="ontologyRef" type="xs:anyURI" minOccurs="0" />
-						<xs:element name="content" type="xs:anyType" />
+						<xs:element name="content" type="xs:string" />
 					</xs:sequence>
 				</xs:extension>
 			</xs:complexContent>
@@ -59,7 +59,7 @@ oneM2M EXPRESSLY ADVISES ANY AND ALL USE OF OR RELIANCE UPON THIS INFORMATION PR
 						<xs:element name="contentInfo" type="m2m:contentInfo" minOccurs="0" />
 						<xs:element name="contentSize" type="xs:nonNegativeInteger" minOccurs="0" />
 						<xs:element name="ontologyRef" type="xs:anyURI" minOccurs="0" />
-						<xs:element name="content" type="xs:anyType" minOccurs="0" />
+						<xs:element name="content" type="xs:string" minOccurs="0" />
 					</xs:sequence>
 				</xs:extension>
 			</xs:complexContent>
