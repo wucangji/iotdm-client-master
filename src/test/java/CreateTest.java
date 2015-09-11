@@ -187,38 +187,38 @@ public class CreateTest {
 
     @Test
     public void createContentInstanceUnderContainer(){
-        //Container Resource to be created
-        Container container=new Container();
-        container.setOntologyRef("container");
-        //Request carrying Container to be created.
-        RequestPrimitive requestPrimitive=new RequestPrimitive();
-        requestPrimitive.setFrom("local");
-        //Set Destination under which a container will be created
-        requestPrimitive.setTo("InCSE1");
-        //Resource Name of container to be created
-        requestPrimitive.setName("container2");
-        //Set OneM2m Operation
-        requestPrimitive.setOperation(OneM2M.Operation.CREATE.value());
-        requestPrimitive.setRequestIdentifier("12345");
-        //Set ResourceType to be created
-        requestPrimitive.setResourceType(OneM2M.ResourceType.CONTAINER.value());
-        requestPrimitive.setPrimitiveContent(new PrimitiveContent());
-        //Request carry resource content
-        requestPrimitive.getPrimitiveContent().getAny().add(container);
-
-        //Exchange carry the content of request and destination of request
+//        //Container Resource to be created
+//        Container container=new Container();
+//        container.setOntologyRef("container");
+//        //Request carrying Container to be created.
+//        RequestPrimitive requestPrimitive=new RequestPrimitive();
+//        requestPrimitive.setFrom("local");
+//        //Set Destination under which a container will be created
+//        requestPrimitive.setTo("InCSE1");
+//        //Resource Name of container to be created
+//        requestPrimitive.setName("container2");
+//        //Set OneM2m Operation
+//        requestPrimitive.setOperation(OneM2M.Operation.CREATE.value());
+//        requestPrimitive.setRequestIdentifier("12345");
+//        //Set ResourceType to be created
+//        requestPrimitive.setResourceType(OneM2M.ResourceType.CONTAINER.value());
+//        requestPrimitive.setPrimitiveContent(new PrimitiveContent());
+//        //Request carry resource content
+//        requestPrimitive.getPrimitiveContent().getAny().add(container);
+//
+//        //Exchange carry the content of request and destination of request
         Exchange exchange=new Exchange();
         exchange.setHost("localhost");
         exchange.setPort("8282");
-        exchange.setRequestPrimitive(requestPrimitive);
-
-        //Initialization of Http client responsible for transmission.
+//        exchange.setRequestPrimitive(requestPrimitive);
+//
+//        //Initialization of Http client responsible for transmission.
         Http http=new Http();
-        http.start();
-        http.setContentType(OneM2M.ResourceType.CONTAINER.value());
-        http.send(exchange);
-        http.stop();
-        System.out.println(exchange.toString());
+//        http.start();
+//        http.setContentType(OneM2M.ResourceType.CONTAINER.value());
+//        http.send(exchange);
+//        http.stop();
+//        System.out.println(exchange.toString());
 
 
         RequestPrimitive primitive = new RequestPrimitive();

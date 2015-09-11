@@ -59,6 +59,7 @@ public class Http implements ClientApi,RestconfApi {
         httpServer = new Server(PORT);
         httpClient = new HttpClient();
         httpServer.setHandler(new NotificationHandler());
+        CONTENT_TYPE = "application/vnd.onem2m-res+json";
     }
 
     public void start() {
@@ -193,6 +194,10 @@ public class Http implements ClientApi,RestconfApi {
     public void setContentType(BigInteger contentType) {
         CONTENT_TYPE = "application/vnd.onem2m-res+json" + ";ty=" + contentType.toString();
 
+    }
+
+    public void cleanContentType() {
+        CONTENT_TYPE = "application/vnd.onem2m-res+json";
     }
 
     private void prepareHeader(RequestPrimitive requestPrimitive, ContentExchange exchange) {

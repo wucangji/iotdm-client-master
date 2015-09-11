@@ -147,7 +147,8 @@ public class Prepare {
     }
 
     public static void contentOfResponsePrimitive(String payload,ResponsePrimitive responsePrimitive){
+        System.out.println("payload: " + payload);
         responsePrimitive.setPrimitiveContent(new PrimitiveContent());
-        responsePrimitive.getPrimitiveContent().getAny().add(new JsonParser().parse(Json.tofullNameJson(payload)));
+        responsePrimitive.getPrimitiveContent().getAny().add(new JsonParser().parse(Json.tofullNameJson(payload.trim())));
     }
 }

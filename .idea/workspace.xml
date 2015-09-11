@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="628025f2-a482-48e4-a63b-6bcea69e9fa3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/CreateTest.class" afterPath="$PROJECT_DIR$/target/test-classes/CreateTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/opendaylight/iotdm/client/impl/Http$NotificationHandler.class" afterPath="$PROJECT_DIR$/target/classes/org/opendaylight/iotdm/client/impl/Http$NotificationHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/opendaylight/iotdm/client/impl/Http.class" afterPath="$PROJECT_DIR$/target/classes/org/opendaylight/iotdm/client/impl/Http.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/opendaylight/iotdm/client/util/Prepare.class" afterPath="$PROJECT_DIR$/target/classes/org/opendaylight/iotdm/client/util/Prepare.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/onem2m-client-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/onem2m-client-0.0.1-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AE.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AE.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AEAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AEAnnc.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AccessControlPolicy.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AccessControlPolicy.java" />
@@ -27,7 +32,52 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/BatchNotify.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/BatchNotify.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Battery.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Battery.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/BatteryAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/BatteryAnnc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/XSDbundle-v1_2_0/CDT-contentInstance-v1_2_0.xsd" afterPath="$PROJECT_DIR$/src/main/resources/XSDbundle-v1_2_0/CDT-contentInstance-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-AE-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-AE-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-CSEBase-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-CSEBase-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-accessControlPolicy-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-accessControlPolicy-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-activeCmdhPolicy-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-activeCmdhPolicy-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-areaNwkDeviceInfo-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-areaNwkDeviceInfo-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-areaNwkInfo-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-areaNwkInfo-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-battery-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-battery-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-cmdhBuffer-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-cmdhBuffer-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-cmdhDefEcValue-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-cmdhDefEcValue-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-cmdhDefaults-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-cmdhDefaults-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-cmdhEcDefParamValues-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-cmdhEcDefParamValues-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-cmdhLimits-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-cmdhLimits-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-cmdhNetworkAccessRules-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-cmdhNetworkAccessRules-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-cmdhNwAccessRule-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-cmdhNwAccessRule-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-cmdhPolicy-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-cmdhPolicy-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-commonTypes-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-commonTypes-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-container-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-container-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-contentInstance-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-contentInstance-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-delivery-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-delivery-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-deviceCapability-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-deviceCapability-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-deviceInfo-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-deviceInfo-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-enumerationTypes-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-enumerationTypes-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-eventConfig-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-eventConfig-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-eventLog-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-eventLog-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-execInstance-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-execInstance-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-firmware-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-firmware-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-group-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-group-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-locationPolicy-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-locationPolicy-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-m2mServiceSubscriptionProfile-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-m2mServiceSubscriptionProfile-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-memory-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-memory-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-mgmtCmd-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-mgmtCmd-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-node-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-node-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-notification-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-notification-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-pollingChannel-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-pollingChannel-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-reboot-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-reboot-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-remoteCSE-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-remoteCSE-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-request-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-request-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-requestPrimitive-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-requestPrimitive-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-responsePrimitive-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-responsePrimitive-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-schedule-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-schedule-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-serviceSubscribedAppRule-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-serviceSubscribedAppRule-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-serviceSubscribedNode-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-serviceSubscribedNode-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-software-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-software-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-statsCollect-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-statsCollect-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-statsConfig-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-statsConfig-v1_2_0.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-subscription-v1_2_0.xsd" afterPath="$PROJECT_DIR$/target/classes/XSDbundle-v1_2_0/CDT-subscription-v1_2_0.xsd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CSEBase.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CSEBase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ChildResourceRef.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ChildResourceRef.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CmdhBuffer.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/CmdhBuffer.java" />
@@ -43,6 +93,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ContentInstance.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ContentInstance.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ContentInstanceAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ContentInstanceAnnc.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CreateTest.java" afterPath="$PROJECT_DIR$/src/test/java/CreateTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/CreateTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/CreateTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Delivery.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Delivery.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/DeliveryMetaData.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/DeliveryMetaData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/DeviceCapability.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/DeviceCapability.java" />
@@ -61,6 +112,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/FirmwareAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/FirmwareAnnc.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Group.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Group.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/GroupAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/GroupAnnc.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/impl/Http.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/impl/Http.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/LocationPolicy.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/LocationPolicy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/LocationPolicyAnnc.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/LocationPolicyAnnc.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/LocationRegion.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/LocationRegion.java" />
@@ -77,6 +129,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ObjectFactory.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ObjectFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/OperationResult.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/OperationResult.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/PollingChannel.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/PollingChannel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/util/Prepare.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/util/Prepare.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/PrimitiveContent.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/PrimitiveContent.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/RateLimit.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/RateLimit.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Reboot.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Reboot.java" />
@@ -106,8 +159,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/StatsCollect.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/StatsCollect.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/StatsConfig.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/StatsConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Subscription.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Subscription.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-CreateTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-CreateTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/UploadArgsType.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/UploadArgsType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/package-info.java" afterPath="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/package-info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="onem2m-client.iws" />
@@ -130,26 +185,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CreateTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreateTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CreateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42978725">
-              <caret line="190" column="44" selection-start-line="190" selection-start-column="44" selection-end-line="190" selection-end-column="44" />
+            <state vertical-scroll-proportion="7.3703704">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exchange.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/Exchange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-              <folding>
-                <element signature="e#779#780#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,8 +221,21 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/XSDbundle-v1_2_0/CDT-container-v1_2_0.xsd">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Http.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/impl/Http.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.6642066">
+              <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+              <folding>
+                <element signature="e#7442#7443#0" expanded="true" />
+                <element signature="e#7506#7507#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,22 +250,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CDT-AE-v1_2_0.xsd" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/XSDbundle-v1_2_0/CDT-AE-v1_2_0.xsd">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="92" column="76" selection-start-line="92" selection-start-column="76" selection-end-line="92" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Prepare.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/util/Prepare.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-              <folding />
+              <caret line="149" column="49" selection-start-line="149" selection-start-column="49" selection-end-line="149" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonParser.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar!/com/google/gson/JsonParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="6.6666665">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -219,7 +278,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/util/Json.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -230,7 +289,157 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="818" column="35" selection-start-line="818" selection-start-column="32" selection-end-line="818" selection-end-column="35" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#559#560#0" expanded="false" />
+                <element signature="e#609#610#0" expanded="false" />
+                <element signature="e#646#647#0" expanded="false" />
+                <element signature="e#686#687#0" expanded="false" />
+                <element signature="e#1209#1210#0" expanded="false" />
+                <element signature="e#1251#1252#0" expanded="false" />
+                <element signature="e#1288#1289#0" expanded="false" />
+                <element signature="e#1324#1325#0" expanded="false" />
+                <element signature="e#1576#1577#0" expanded="false" />
+                <element signature="e#1618#1619#0" expanded="false" />
+                <element signature="e#1655#1656#0" expanded="false" />
+                <element signature="e#1691#1692#0" expanded="false" />
+                <element signature="e#1935#1936#0" expanded="false" />
+                <element signature="e#1977#1978#0" expanded="false" />
+                <element signature="e#2014#2015#0" expanded="false" />
+                <element signature="e#2050#2051#0" expanded="false" />
+                <element signature="e#2348#2349#0" expanded="false" />
+                <element signature="e#2390#2391#0" expanded="false" />
+                <element signature="e#2428#2429#0" expanded="false" />
+                <element signature="e#2464#2465#0" expanded="false" />
+                <element signature="e#2847#2848#0" expanded="false" />
+                <element signature="e#2889#2890#0" expanded="false" />
+                <element signature="e#2926#2927#0" expanded="false" />
+                <element signature="e#2962#2963#0" expanded="false" />
+                <element signature="e#3219#3220#0" expanded="false" />
+                <element signature="e#3261#3262#0" expanded="false" />
+                <element signature="e#3299#3300#0" expanded="false" />
+                <element signature="e#3335#3336#0" expanded="false" />
+                <element signature="e#3648#3649#0" expanded="false" />
+                <element signature="e#3690#3691#0" expanded="false" />
+                <element signature="e#3727#3728#0" expanded="false" />
+                <element signature="e#3763#3764#0" expanded="false" />
+                <element signature="e#4067#4068#0" expanded="false" />
+                <element signature="e#4109#4110#0" expanded="false" />
+                <element signature="e#4147#4148#0" expanded="false" />
+                <element signature="e#4183#4184#0" expanded="false" />
+                <element signature="e#5387#5388#0" expanded="false" />
+                <element signature="e#5429#5430#0" expanded="false" />
+                <element signature="e#5467#5468#0" expanded="false" />
+                <element signature="e#5503#5504#0" expanded="false" />
+                <element signature="e#6605#6606#0" expanded="false" />
+                <element signature="e#6647#6648#0" expanded="false" />
+                <element signature="e#6685#6686#0" expanded="false" />
+                <element signature="e#6721#6722#0" expanded="false" />
+                <element signature="e#7005#7006#0" expanded="false" />
+                <element signature="e#7047#7048#0" expanded="false" />
+                <element signature="e#7085#7086#0" expanded="false" />
+                <element signature="e#7121#7122#0" expanded="false" />
+                <element signature="e#7344#7345#0" expanded="false" />
+                <element signature="e#7386#7387#0" expanded="false" />
+                <element signature="e#7424#7425#0" expanded="false" />
+                <element signature="e#7460#7461#0" expanded="false" />
+                <element signature="e#7741#7742#0" expanded="false" />
+                <element signature="e#7783#7784#0" expanded="false" />
+                <element signature="e#7821#7822#0" expanded="false" />
+                <element signature="e#7857#7858#0" expanded="false" />
+                <element signature="e#8150#8151#0" expanded="false" />
+                <element signature="e#8192#8193#0" expanded="false" />
+                <element signature="e#8230#8231#0" expanded="false" />
+                <element signature="e#8266#8267#0" expanded="false" />
+                <element signature="e#8781#8782#0" expanded="false" />
+                <element signature="e#8823#8824#0" expanded="false" />
+                <element signature="e#8857#8858#0" expanded="false" />
+                <element signature="e#8893#8894#0" expanded="false" />
+                <element signature="e#9054#9055#0" expanded="false" />
+                <element signature="e#9096#9097#0" expanded="false" />
+                <element signature="e#9133#9134#0" expanded="false" />
+                <element signature="e#9169#9170#0" expanded="false" />
+                <element signature="e#9379#9380#0" expanded="false" />
+                <element signature="e#9421#9422#0" expanded="false" />
+                <element signature="e#9459#9460#0" expanded="false" />
+                <element signature="e#9495#9496#0" expanded="false" />
+                <element signature="e#9726#9727#0" expanded="false" />
+                <element signature="e#9768#9769#0" expanded="false" />
+                <element signature="e#9806#9807#0" expanded="false" />
+                <element signature="e#9842#9843#0" expanded="false" />
+                <element signature="e#10123#10124#0" expanded="false" />
+                <element signature="e#10165#10166#0" expanded="false" />
+                <element signature="e#10202#10203#0" expanded="false" />
+                <element signature="e#10238#10239#0" expanded="false" />
+                <element signature="e#10805#10806#0" expanded="false" />
+                <element signature="e#10847#10848#0" expanded="false" />
+                <element signature="e#10885#10886#0" expanded="false" />
+                <element signature="e#10921#10922#0" expanded="false" />
+                <element signature="e#11205#11206#0" expanded="false" />
+                <element signature="e#11247#11248#0" expanded="false" />
+                <element signature="e#11285#11286#0" expanded="false" />
+                <element signature="e#11321#11322#0" expanded="false" />
+                <element signature="e#13584#13585#0" expanded="false" />
+                <element signature="e#13626#13627#0" expanded="false" />
+                <element signature="e#13663#13664#0" expanded="false" />
+                <element signature="e#13699#13700#0" expanded="false" />
+                <element signature="e#13962#13963#0" expanded="false" />
+                <element signature="e#14004#14005#0" expanded="false" />
+                <element signature="e#14042#14043#0" expanded="false" />
+                <element signature="e#14078#14079#0" expanded="false" />
+                <element signature="e#14308#14309#0" expanded="false" />
+                <element signature="e#14350#14351#0" expanded="false" />
+                <element signature="e#14387#14388#0" expanded="false" />
+                <element signature="e#14423#14424#0" expanded="false" />
+                <element signature="e#16577#16578#0" expanded="false" />
+                <element signature="e#16619#16620#0" expanded="false" />
+                <element signature="e#16933#16934#0" expanded="false" />
+                <element signature="e#16969#16970#0" expanded="false" />
+                <element signature="e#17347#17348#0" expanded="false" />
+                <element signature="e#17389#17390#0" expanded="false" />
+                <element signature="e#17426#17427#0" expanded="false" />
+                <element signature="e#17462#17463#0" expanded="false" />
+                <element signature="e#17870#17871#0" expanded="false" />
+                <element signature="e#17912#17913#0" expanded="false" />
+                <element signature="e#17949#17950#0" expanded="false" />
+                <element signature="e#17985#17986#0" expanded="false" />
+                <element signature="e#18403#18404#0" expanded="false" />
+                <element signature="e#18445#18446#0" expanded="false" />
+                <element signature="e#18483#18484#0" expanded="false" />
+                <element signature="e#18519#18520#0" expanded="false" />
+                <element signature="e#20214#20215#0" expanded="false" />
+                <element signature="e#20256#20257#0" expanded="false" />
+                <element signature="e#20293#20294#0" expanded="false" />
+                <element signature="e#20329#20330#0" expanded="false" />
+                <element signature="e#22516#22517#0" expanded="false" />
+                <element signature="e#22564#22565#0" expanded="false" />
+                <element signature="e#22604#22605#0" expanded="false" />
+                <element signature="e#22651#22652#0" expanded="false" />
+                <element signature="e#23000#23001#0" expanded="false" />
+                <element signature="e#23048#23049#0" expanded="false" />
+                <element signature="e#33716#33717#0" expanded="false" />
+                <element signature="e#33764#33765#0" expanded="false" />
+                <element signature="e#33804#33805#0" expanded="false" />
+                <element signature="e#33851#33852#0" expanded="false" />
+                <element signature="e#33891#33892#0" expanded="false" />
+                <element signature="e#33939#33940#0" expanded="false" />
+                <element signature="e#37017#37018#0" expanded="false" />
+                <element signature="e#37065#37066#0" expanded="false" />
+                <element signature="e#37105#37106#0" expanded="false" />
+                <element signature="e#37152#37153#0" expanded="false" />
+                <element signature="e#37192#37193#0" expanded="false" />
+                <element signature="e#37240#37241#0" expanded="false" />
+                <element signature="e#40760#40761#0" expanded="false" />
+                <element signature="e#40808#40809#0" expanded="false" />
+                <element signature="e#40849#40850#0" expanded="false" />
+                <element signature="e#40897#40898#0" expanded="false" />
+                <element signature="e#40937#40938#0" expanded="false" />
+                <element signature="e#40984#40985#0" expanded="false" />
+                <element signature="e#41754#41755#0" expanded="false" />
+                <element signature="e#41799#41800#0" expanded="false" />
+                <element signature="e#41833#41834#0" expanded="false" />
+                <element signature="e#41885#41886#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -255,13 +464,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/util/Prepare.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/AE.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/impl/Http.java" />
         <option value="$PROJECT_DIR$/src/main/resources/XSDbundle-v1_2_0/CDT-AE-v1_2_0.xsd" />
-        <option value="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ContentInstance.java" />
         <option value="$PROJECT_DIR$/src/main/resources/XSDbundle-v1_2_0/CDT-contentInstance-v1_2_0.xsd" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ContentInstance.java" />
         <option value="$PROJECT_DIR$/src/test/java/CreateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/util/Prepare.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/impl/Http.java" />
       </list>
     </option>
   </component>
@@ -286,10 +495,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="333" />
-    <option name="y" value="168" />
+    <option name="x" value="952" />
+    <option name="y" value="83" />
     <option name="width" value="1440" />
-    <option name="height" value="832" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -314,8 +523,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -331,20 +540,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="iotdm-client-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iotdm-client-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iotdm-client-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,10 +586,6 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="XSDbundle-v1_2_0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -419,10 +610,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="iotdm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="primitive" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -749,6 +936,7 @@
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/onem2m-client-0.0.1-SNAPSHOT.jar" />
       <envs />
       <method />
     </configuration>
@@ -944,26 +1132,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="333" y="168" width="1440" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="952" y="83" width="1440" height="825" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22297297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22237381" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37672812" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885087" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294903" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27181688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32702702" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294903" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27181688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32469305" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -993,13 +1181,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/impl/Http.java</url>
-          <line>204</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
@@ -1009,6 +1190,214 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ContentInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/XSDbundle-v1_2_0/CDT-container-v1_2_0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/XSDbundle-v1_2_0/CDT-contentInstance-v1_2_0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/XSDbundle-v1_2_0/CDT-AE-v1_2_0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="92" column="76" selection-start-line="92" selection-start-column="76" selection-end-line="92" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/util/Prepare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/util/Json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/constant/OneM2M.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="818" column="35" selection-start-line="818" selection-start-column="32" selection-end-line="818" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#559#560#0" expanded="false" />
+            <element signature="e#609#610#0" expanded="false" />
+            <element signature="e#646#647#0" expanded="false" />
+            <element signature="e#686#687#0" expanded="false" />
+            <element signature="e#1209#1210#0" expanded="false" />
+            <element signature="e#1251#1252#0" expanded="false" />
+            <element signature="e#1288#1289#0" expanded="false" />
+            <element signature="e#1324#1325#0" expanded="false" />
+            <element signature="e#1576#1577#0" expanded="false" />
+            <element signature="e#1618#1619#0" expanded="false" />
+            <element signature="e#1655#1656#0" expanded="false" />
+            <element signature="e#1691#1692#0" expanded="false" />
+            <element signature="e#1935#1936#0" expanded="false" />
+            <element signature="e#1977#1978#0" expanded="false" />
+            <element signature="e#2014#2015#0" expanded="false" />
+            <element signature="e#2050#2051#0" expanded="false" />
+            <element signature="e#2348#2349#0" expanded="false" />
+            <element signature="e#2390#2391#0" expanded="false" />
+            <element signature="e#2428#2429#0" expanded="false" />
+            <element signature="e#2464#2465#0" expanded="false" />
+            <element signature="e#2847#2848#0" expanded="false" />
+            <element signature="e#2889#2890#0" expanded="false" />
+            <element signature="e#2926#2927#0" expanded="false" />
+            <element signature="e#2962#2963#0" expanded="false" />
+            <element signature="e#3219#3220#0" expanded="false" />
+            <element signature="e#3261#3262#0" expanded="false" />
+            <element signature="e#3299#3300#0" expanded="false" />
+            <element signature="e#3335#3336#0" expanded="false" />
+            <element signature="e#3648#3649#0" expanded="false" />
+            <element signature="e#3690#3691#0" expanded="false" />
+            <element signature="e#3727#3728#0" expanded="false" />
+            <element signature="e#3763#3764#0" expanded="false" />
+            <element signature="e#4067#4068#0" expanded="false" />
+            <element signature="e#4109#4110#0" expanded="false" />
+            <element signature="e#4147#4148#0" expanded="false" />
+            <element signature="e#4183#4184#0" expanded="false" />
+            <element signature="e#5387#5388#0" expanded="false" />
+            <element signature="e#5429#5430#0" expanded="false" />
+            <element signature="e#5467#5468#0" expanded="false" />
+            <element signature="e#5503#5504#0" expanded="false" />
+            <element signature="e#6605#6606#0" expanded="false" />
+            <element signature="e#6647#6648#0" expanded="false" />
+            <element signature="e#6685#6686#0" expanded="false" />
+            <element signature="e#6721#6722#0" expanded="false" />
+            <element signature="e#7005#7006#0" expanded="false" />
+            <element signature="e#7047#7048#0" expanded="false" />
+            <element signature="e#7085#7086#0" expanded="false" />
+            <element signature="e#7121#7122#0" expanded="false" />
+            <element signature="e#7344#7345#0" expanded="false" />
+            <element signature="e#7386#7387#0" expanded="false" />
+            <element signature="e#7424#7425#0" expanded="false" />
+            <element signature="e#7460#7461#0" expanded="false" />
+            <element signature="e#7741#7742#0" expanded="false" />
+            <element signature="e#7783#7784#0" expanded="false" />
+            <element signature="e#7821#7822#0" expanded="false" />
+            <element signature="e#7857#7858#0" expanded="false" />
+            <element signature="e#8150#8151#0" expanded="false" />
+            <element signature="e#8192#8193#0" expanded="false" />
+            <element signature="e#8230#8231#0" expanded="false" />
+            <element signature="e#8266#8267#0" expanded="false" />
+            <element signature="e#8781#8782#0" expanded="false" />
+            <element signature="e#8823#8824#0" expanded="false" />
+            <element signature="e#8857#8858#0" expanded="false" />
+            <element signature="e#8893#8894#0" expanded="false" />
+            <element signature="e#9054#9055#0" expanded="false" />
+            <element signature="e#9096#9097#0" expanded="false" />
+            <element signature="e#9133#9134#0" expanded="false" />
+            <element signature="e#9169#9170#0" expanded="false" />
+            <element signature="e#9379#9380#0" expanded="false" />
+            <element signature="e#9421#9422#0" expanded="false" />
+            <element signature="e#9459#9460#0" expanded="false" />
+            <element signature="e#9495#9496#0" expanded="false" />
+            <element signature="e#9726#9727#0" expanded="false" />
+            <element signature="e#9768#9769#0" expanded="false" />
+            <element signature="e#9806#9807#0" expanded="false" />
+            <element signature="e#9842#9843#0" expanded="false" />
+            <element signature="e#10123#10124#0" expanded="false" />
+            <element signature="e#10165#10166#0" expanded="false" />
+            <element signature="e#10202#10203#0" expanded="false" />
+            <element signature="e#10238#10239#0" expanded="false" />
+            <element signature="e#10805#10806#0" expanded="false" />
+            <element signature="e#10847#10848#0" expanded="false" />
+            <element signature="e#10885#10886#0" expanded="false" />
+            <element signature="e#10921#10922#0" expanded="false" />
+            <element signature="e#11205#11206#0" expanded="false" />
+            <element signature="e#11247#11248#0" expanded="false" />
+            <element signature="e#11285#11286#0" expanded="false" />
+            <element signature="e#11321#11322#0" expanded="false" />
+            <element signature="e#13584#13585#0" expanded="false" />
+            <element signature="e#13626#13627#0" expanded="false" />
+            <element signature="e#13663#13664#0" expanded="false" />
+            <element signature="e#13699#13700#0" expanded="false" />
+            <element signature="e#13962#13963#0" expanded="false" />
+            <element signature="e#14004#14005#0" expanded="false" />
+            <element signature="e#14042#14043#0" expanded="false" />
+            <element signature="e#14078#14079#0" expanded="false" />
+            <element signature="e#14308#14309#0" expanded="false" />
+            <element signature="e#14350#14351#0" expanded="false" />
+            <element signature="e#14387#14388#0" expanded="false" />
+            <element signature="e#14423#14424#0" expanded="false" />
+            <element signature="e#16577#16578#0" expanded="false" />
+            <element signature="e#16619#16620#0" expanded="false" />
+            <element signature="e#16933#16934#0" expanded="false" />
+            <element signature="e#16969#16970#0" expanded="false" />
+            <element signature="e#17347#17348#0" expanded="false" />
+            <element signature="e#17389#17390#0" expanded="false" />
+            <element signature="e#17426#17427#0" expanded="false" />
+            <element signature="e#17462#17463#0" expanded="false" />
+            <element signature="e#17870#17871#0" expanded="false" />
+            <element signature="e#17912#17913#0" expanded="false" />
+            <element signature="e#17949#17950#0" expanded="false" />
+            <element signature="e#17985#17986#0" expanded="false" />
+            <element signature="e#18403#18404#0" expanded="false" />
+            <element signature="e#18445#18446#0" expanded="false" />
+            <element signature="e#18483#18484#0" expanded="false" />
+            <element signature="e#18519#18520#0" expanded="false" />
+            <element signature="e#20214#20215#0" expanded="false" />
+            <element signature="e#20256#20257#0" expanded="false" />
+            <element signature="e#20293#20294#0" expanded="false" />
+            <element signature="e#20329#20330#0" expanded="false" />
+            <element signature="e#22516#22517#0" expanded="false" />
+            <element signature="e#22564#22565#0" expanded="false" />
+            <element signature="e#22604#22605#0" expanded="false" />
+            <element signature="e#22651#22652#0" expanded="false" />
+            <element signature="e#23000#23001#0" expanded="false" />
+            <element signature="e#23048#23049#0" expanded="false" />
+            <element signature="e#33716#33717#0" expanded="false" />
+            <element signature="e#33764#33765#0" expanded="false" />
+            <element signature="e#33804#33805#0" expanded="false" />
+            <element signature="e#33851#33852#0" expanded="false" />
+            <element signature="e#33891#33892#0" expanded="false" />
+            <element signature="e#33939#33940#0" expanded="false" />
+            <element signature="e#37017#37018#0" expanded="false" />
+            <element signature="e#37065#37066#0" expanded="false" />
+            <element signature="e#37105#37106#0" expanded="false" />
+            <element signature="e#37152#37153#0" expanded="false" />
+            <element signature="e#37192#37193#0" expanded="false" />
+            <element signature="e#37240#37241#0" expanded="false" />
+            <element signature="e#40760#40761#0" expanded="false" />
+            <element signature="e#40808#40809#0" expanded="false" />
+            <element signature="e#40849#40850#0" expanded="false" />
+            <element signature="e#40897#40898#0" expanded="false" />
+            <element signature="e#40937#40938#0" expanded="false" />
+            <element signature="e#40984#40985#0" expanded="false" />
+            <element signature="e#41754#41755#0" expanded="false" />
+            <element signature="e#41799#41800#0" expanded="false" />
+            <element signature="e#41833#41834#0" expanded="false" />
+            <element signature="e#41885#41886#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CreateTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1023,7 +1412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1047,7 +1435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,7 +1442,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
+          <folding>
+            <element signature="e#7442#7443#0" expanded="true" />
+            <element signature="e#7506#7507#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1063,7 +1453,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1089,7 +1481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,7 +1488,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
+          <folding>
+            <element signature="e#7442#7443#0" expanded="true" />
+            <element signature="e#7506#7507#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1105,7 +1499,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1131,7 +1527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1139,7 +1534,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#7442#7443#0" expanded="true" />
+            <element signature="e#7506#7507#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1147,7 +1545,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1173,7 +1573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1181,7 +1580,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#7442#7443#0" expanded="true" />
+            <element signature="e#7506#7507#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1189,7 +1591,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1247,15 +1651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/impl/Http.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1263,7 +1658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1288,8 +1682,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
           <folding>
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="false" />
+            <element signature="e#835#836#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1298,39 +1692,157 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="818" column="35" selection-start-line="818" selection-start-column="32" selection-end-line="818" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/util/Json.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/util/Prepare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/XSDbundle-v1_2_0/CDT-container-v1_2_0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#559#560#0" expanded="false" />
+            <element signature="e#609#610#0" expanded="false" />
+            <element signature="e#646#647#0" expanded="false" />
+            <element signature="e#686#687#0" expanded="false" />
+            <element signature="e#1209#1210#0" expanded="false" />
+            <element signature="e#1251#1252#0" expanded="false" />
+            <element signature="e#1288#1289#0" expanded="false" />
+            <element signature="e#1324#1325#0" expanded="false" />
+            <element signature="e#1576#1577#0" expanded="false" />
+            <element signature="e#1618#1619#0" expanded="false" />
+            <element signature="e#1655#1656#0" expanded="false" />
+            <element signature="e#1691#1692#0" expanded="false" />
+            <element signature="e#1935#1936#0" expanded="false" />
+            <element signature="e#1977#1978#0" expanded="false" />
+            <element signature="e#2014#2015#0" expanded="false" />
+            <element signature="e#2050#2051#0" expanded="false" />
+            <element signature="e#2348#2349#0" expanded="false" />
+            <element signature="e#2390#2391#0" expanded="false" />
+            <element signature="e#2428#2429#0" expanded="false" />
+            <element signature="e#2464#2465#0" expanded="false" />
+            <element signature="e#2847#2848#0" expanded="false" />
+            <element signature="e#2889#2890#0" expanded="false" />
+            <element signature="e#2926#2927#0" expanded="false" />
+            <element signature="e#2962#2963#0" expanded="false" />
+            <element signature="e#3219#3220#0" expanded="false" />
+            <element signature="e#3261#3262#0" expanded="false" />
+            <element signature="e#3299#3300#0" expanded="false" />
+            <element signature="e#3335#3336#0" expanded="false" />
+            <element signature="e#3648#3649#0" expanded="false" />
+            <element signature="e#3690#3691#0" expanded="false" />
+            <element signature="e#3727#3728#0" expanded="false" />
+            <element signature="e#3763#3764#0" expanded="false" />
+            <element signature="e#4067#4068#0" expanded="false" />
+            <element signature="e#4109#4110#0" expanded="false" />
+            <element signature="e#4147#4148#0" expanded="false" />
+            <element signature="e#4183#4184#0" expanded="false" />
+            <element signature="e#5387#5388#0" expanded="false" />
+            <element signature="e#5429#5430#0" expanded="false" />
+            <element signature="e#5467#5468#0" expanded="false" />
+            <element signature="e#5503#5504#0" expanded="false" />
+            <element signature="e#6605#6606#0" expanded="false" />
+            <element signature="e#6647#6648#0" expanded="false" />
+            <element signature="e#6685#6686#0" expanded="false" />
+            <element signature="e#6721#6722#0" expanded="false" />
+            <element signature="e#7005#7006#0" expanded="false" />
+            <element signature="e#7047#7048#0" expanded="false" />
+            <element signature="e#7085#7086#0" expanded="false" />
+            <element signature="e#7121#7122#0" expanded="false" />
+            <element signature="e#7344#7345#0" expanded="false" />
+            <element signature="e#7386#7387#0" expanded="false" />
+            <element signature="e#7424#7425#0" expanded="false" />
+            <element signature="e#7460#7461#0" expanded="false" />
+            <element signature="e#7741#7742#0" expanded="false" />
+            <element signature="e#7783#7784#0" expanded="false" />
+            <element signature="e#7821#7822#0" expanded="false" />
+            <element signature="e#7857#7858#0" expanded="false" />
+            <element signature="e#8150#8151#0" expanded="false" />
+            <element signature="e#8192#8193#0" expanded="false" />
+            <element signature="e#8230#8231#0" expanded="false" />
+            <element signature="e#8266#8267#0" expanded="false" />
+            <element signature="e#8781#8782#0" expanded="false" />
+            <element signature="e#8823#8824#0" expanded="false" />
+            <element signature="e#8857#8858#0" expanded="false" />
+            <element signature="e#8893#8894#0" expanded="false" />
+            <element signature="e#9054#9055#0" expanded="false" />
+            <element signature="e#9096#9097#0" expanded="false" />
+            <element signature="e#9133#9134#0" expanded="false" />
+            <element signature="e#9169#9170#0" expanded="false" />
+            <element signature="e#9379#9380#0" expanded="false" />
+            <element signature="e#9421#9422#0" expanded="false" />
+            <element signature="e#9459#9460#0" expanded="false" />
+            <element signature="e#9495#9496#0" expanded="false" />
+            <element signature="e#9726#9727#0" expanded="false" />
+            <element signature="e#9768#9769#0" expanded="false" />
+            <element signature="e#9806#9807#0" expanded="false" />
+            <element signature="e#9842#9843#0" expanded="false" />
+            <element signature="e#10123#10124#0" expanded="false" />
+            <element signature="e#10165#10166#0" expanded="false" />
+            <element signature="e#10202#10203#0" expanded="false" />
+            <element signature="e#10238#10239#0" expanded="false" />
+            <element signature="e#10805#10806#0" expanded="false" />
+            <element signature="e#10847#10848#0" expanded="false" />
+            <element signature="e#10885#10886#0" expanded="false" />
+            <element signature="e#10921#10922#0" expanded="false" />
+            <element signature="e#11205#11206#0" expanded="false" />
+            <element signature="e#11247#11248#0" expanded="false" />
+            <element signature="e#11285#11286#0" expanded="false" />
+            <element signature="e#11321#11322#0" expanded="false" />
+            <element signature="e#13584#13585#0" expanded="false" />
+            <element signature="e#13626#13627#0" expanded="false" />
+            <element signature="e#13663#13664#0" expanded="false" />
+            <element signature="e#13699#13700#0" expanded="false" />
+            <element signature="e#13962#13963#0" expanded="false" />
+            <element signature="e#14004#14005#0" expanded="false" />
+            <element signature="e#14042#14043#0" expanded="false" />
+            <element signature="e#14078#14079#0" expanded="false" />
+            <element signature="e#14308#14309#0" expanded="false" />
+            <element signature="e#14350#14351#0" expanded="false" />
+            <element signature="e#14387#14388#0" expanded="false" />
+            <element signature="e#14423#14424#0" expanded="false" />
+            <element signature="e#16577#16578#0" expanded="false" />
+            <element signature="e#16619#16620#0" expanded="false" />
+            <element signature="e#16933#16934#0" expanded="false" />
+            <element signature="e#16969#16970#0" expanded="false" />
+            <element signature="e#17347#17348#0" expanded="false" />
+            <element signature="e#17389#17390#0" expanded="false" />
+            <element signature="e#17426#17427#0" expanded="false" />
+            <element signature="e#17462#17463#0" expanded="false" />
+            <element signature="e#17870#17871#0" expanded="false" />
+            <element signature="e#17912#17913#0" expanded="false" />
+            <element signature="e#17949#17950#0" expanded="false" />
+            <element signature="e#17985#17986#0" expanded="false" />
+            <element signature="e#18403#18404#0" expanded="false" />
+            <element signature="e#18445#18446#0" expanded="false" />
+            <element signature="e#18483#18484#0" expanded="false" />
+            <element signature="e#18519#18520#0" expanded="false" />
+            <element signature="e#20214#20215#0" expanded="false" />
+            <element signature="e#20256#20257#0" expanded="false" />
+            <element signature="e#20293#20294#0" expanded="false" />
+            <element signature="e#20329#20330#0" expanded="false" />
+            <element signature="e#22516#22517#0" expanded="false" />
+            <element signature="e#22564#22565#0" expanded="false" />
+            <element signature="e#22604#22605#0" expanded="false" />
+            <element signature="e#22651#22652#0" expanded="false" />
+            <element signature="e#23000#23001#0" expanded="false" />
+            <element signature="e#23048#23049#0" expanded="false" />
+            <element signature="e#33716#33717#0" expanded="false" />
+            <element signature="e#33764#33765#0" expanded="false" />
+            <element signature="e#33804#33805#0" expanded="false" />
+            <element signature="e#33851#33852#0" expanded="false" />
+            <element signature="e#33891#33892#0" expanded="false" />
+            <element signature="e#33939#33940#0" expanded="false" />
+            <element signature="e#37017#37018#0" expanded="false" />
+            <element signature="e#37065#37066#0" expanded="false" />
+            <element signature="e#37105#37106#0" expanded="false" />
+            <element signature="e#37152#37153#0" expanded="false" />
+            <element signature="e#37192#37193#0" expanded="false" />
+            <element signature="e#37240#37241#0" expanded="false" />
+            <element signature="e#40760#40761#0" expanded="false" />
+            <element signature="e#40808#40809#0" expanded="false" />
+            <element signature="e#40849#40850#0" expanded="false" />
+            <element signature="e#40897#40898#0" expanded="false" />
+            <element signature="e#40937#40938#0" expanded="false" />
+            <element signature="e#40984#40985#0" expanded="false" />
+            <element signature="e#41754#41755#0" expanded="false" />
+            <element signature="e#41799#41800#0" expanded="false" />
+            <element signature="e#41833#41834#0" expanded="false" />
+            <element signature="e#41885#41886#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1342,6 +1854,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/util/Json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar!/com/google/gson/JsonParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.6666665">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/ContentInstance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1350,12 +1880,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CreateTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/util/Prepare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42978725">
-          <caret line="190" column="44" selection-start-line="190" selection-start-column="44" selection-end-line="190" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="149" column="49" selection-start-line="149" selection-start-column="49" selection-end-line="149" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/primitive/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CreateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.3703704">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/XSDbundle-v1_2_0/CDT-container-v1_2_0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/opendaylight/iotdm/client/impl/Http.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6642066">
+          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+          <folding>
+            <element signature="e#7442#7443#0" expanded="true" />
+            <element signature="e#7506#7507#0" expanded="true" />
           </folding>
         </state>
       </provider>
