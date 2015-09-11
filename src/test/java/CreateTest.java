@@ -6,6 +6,8 @@ import org.opendaylight.iotdm.client.impl.Http;
 import org.opendaylight.iotdm.constant.OneM2M;
 import org.opendaylight.iotdm.primitive.*;
 
+import java.math.BigInteger;
+
 /**
  * Created by wenxshi on 6/2/15.
  */
@@ -154,6 +156,7 @@ public class CreateTest {
         //Container Resource to be created
         Container container=new Container();
         container.setOntologyRef("container");
+        container.setMaxNrOfInstances(BigInteger.TEN);
         //Request carrying Container to be created.
         RequestPrimitive requestPrimitive=new RequestPrimitive();
         requestPrimitive.setFrom("local");
@@ -172,8 +175,8 @@ public class CreateTest {
 
         //Exchange carry the content of request and destination of request
         Exchange exchange=new Exchange();
-        exchange.setHost("64.103.37.47");
-        exchange.setPort("8888");
+        exchange.setHost("localhost");
+        exchange.setPort("8282");
         exchange.setRequestPrimitive(requestPrimitive);
 
         //Initialization of Http client responsible for transmission.

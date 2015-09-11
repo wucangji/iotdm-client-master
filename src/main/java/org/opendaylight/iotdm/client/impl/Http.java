@@ -40,7 +40,7 @@ public class Http implements ClientApi,RestconfApi {
     public static final String UPDATE_IN_HTTP = "put";
     public static final String DELETE_IN_HTTP = "delete";
     public static final String NOTIFY_IN_HTTP = "post";
-    public static String CONTENT_TYPE = "application/vnd.onem2m-res+json";
+    private String CONTENT_TYPE = "application/vnd.onem2m-res+json";
 
 
     private HttpClient httpClient;

@@ -135,7 +135,6 @@ public class Prepare {
 
             StringWriter sw=new StringWriter();
             marshaller.marshallToJSON(element,sw);
-
             for(Map.Entry<String,JsonElement> entry:new JsonParser().parse(sw.toString()).getAsJsonObject().entrySet()){
                 return Json.toShortNameJson(entry.getValue().toString());
             }
