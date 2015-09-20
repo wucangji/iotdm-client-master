@@ -39,8 +39,8 @@ public class Prepare {
 
         ub.setScheme(schema);
 
-        if (requestPrimitive.getResponseType() != null && requestPrimitive.getResponseType().getResponseTypeValue() != null)
-            ub.addParameter(OneM2M.Name.Primitive.RESPONSE_TYPE.toString(), requestPrimitive.getResponseType().getResponseTypeValue().toString());
+        if (requestPrimitive.getResponseType() != null && requestPrimitive.getResponseType().getRtv() != null)
+            ub.addParameter(OneM2M.Name.Primitive.RESPONSE_TYPE.toString(), requestPrimitive.getResponseType().getRtv().toString());
 
 //        if (requestPrimitive.getResourceType() != null)
 //            ub.addParameter(OneM2M.Name.Primitive.RESOURCE_TYPE.toString(), requestPrimitive.getResourceType().toString());
@@ -56,64 +56,64 @@ public class Prepare {
 
         if (requestPrimitive.getFilterCriteria() != null) {
             FilterCriteria fc = requestPrimitive.getFilterCriteria();
-            if (fc.getCreatedBefore() != null)
-                ub.addParameter(OneM2M.Name.Primitive.CREATED_BEFORE.toString(), fc.getCreatedBefore());
+            if (fc.getCrb() != null)
+                ub.addParameter(OneM2M.Name.Primitive.CREATED_BEFORE.toString(), fc.getCrb());
 
-            if (fc.getCreatedAfter() != null)
-                ub.addParameter(OneM2M.Name.Primitive.CREATED_AFTER.toString(), fc.getCreatedAfter());
+            if (fc.getCra() != null)
+                ub.addParameter(OneM2M.Name.Primitive.CREATED_AFTER.toString(), fc.getCra());
 
-            if (fc.getModifiedSince() != null)
-                ub.addParameter(OneM2M.Name.Primitive.MODIFIED_SINCE.toString(), fc.getModifiedSince());
+            if (fc.getMs() != null)
+                ub.addParameter(OneM2M.Name.Primitive.MODIFIED_SINCE.toString(), fc.getMs());
 
-            if (fc.getUnmodifiedSince() != null)
-                ub.addParameter(OneM2M.Name.Primitive.UNMODIFIED_SINCE.toString(), fc.getUnmodifiedSince());
+            if (fc.getUs() != null)
+                ub.addParameter(OneM2M.Name.Primitive.UNMODIFIED_SINCE.toString(), fc.getUs());
 
-            if (fc.getStateTagSmaller() != null)
-                ub.addParameter(OneM2M.Name.Primitive.STATE_TAG_SMALLER.toString(), fc.getStateTagSmaller().toString());
+            if (fc.getSts() != null)
+                ub.addParameter(OneM2M.Name.Primitive.STATE_TAG_SMALLER.toString(), fc.getSts().toString());
 
-            if (fc.getStateTagBigger() != null)
-                ub.addParameter(OneM2M.Name.Primitive.STATE_TAG_BIGGER.toString(), fc.getStateTagBigger().toString());
+            if (fc.getStb() != null)
+                ub.addParameter(OneM2M.Name.Primitive.STATE_TAG_BIGGER.toString(), fc.getStb().toString());
 
 
-            if (fc.getExpireBefore() != null)
-                ub.addParameter(OneM2M.Name.Primitive.EXPIRE_BEFORE.toString(), fc.getExpireBefore());
+            if (fc.getExb() != null)
+                ub.addParameter(OneM2M.Name.Primitive.EXPIRE_BEFORE.toString(), fc.getExb());
 
-            if (fc.getExpireAfter() != null)
-                ub.addParameter(OneM2M.Name.Primitive.EXPIRE_AFTER.toString(), fc.getExpireAfter());
+            if (fc.getExa() != null)
+                ub.addParameter(OneM2M.Name.Primitive.EXPIRE_AFTER.toString(), fc.getExa());
 
-            if (fc.getLabels() != null && !fc.getLabels().isEmpty()) {
-                for (String str : fc.getLabels()) {
+            if (fc.getLbl() != null && !fc.getLbl().isEmpty()) {
+                for (String str : fc.getLbl()) {
                     ub.addParameter(OneM2M.Name.Primitive.LABELS.toString(), str);
                 }
             }
 
-            if (fc.getResourceType() != null)
-                ub.addParameter(OneM2M.Name.Primitive.FILTER_CRITERIA_RESOURCE_TYPE.toString(), fc.getResourceType().toString());
+            if (fc.getTy() != null)
+                ub.addParameter(OneM2M.Name.Primitive.FILTER_CRITERIA_RESOURCE_TYPE.toString(), fc.getTy().toString());
 
-            if (fc.getSizeAbove() != null)
-                ub.addParameter(OneM2M.Name.Primitive.SIZE_ABOVE.toString(), fc.getSizeAbove().toString());
+            if (fc.getSza() != null)
+                ub.addParameter(OneM2M.Name.Primitive.SIZE_ABOVE.toString(), fc.getSza().toString());
 
-            if (fc.getSizeBelow() != null)
-                ub.addParameter(OneM2M.Name.Primitive.SIZE_BELOW.toString(), fc.getSizeBelow().toString());
+            if (fc.getSzb() != null)
+                ub.addParameter(OneM2M.Name.Primitive.SIZE_BELOW.toString(), fc.getSzb().toString());
 
-            if (fc.getContentType() != null && !fc.getContentType().isEmpty()) {
-                for (String str : fc.getContentType()) {
+            if (fc.getCty() != null && !fc.getCty().isEmpty()) {
+                for (String str : fc.getCty()) {
                     ub.addParameter(OneM2M.Name.Primitive.CONTENT_TYPE.toString(), str);
                 }
             }
 
-            if (fc.getAttribute() != null && !fc.getAttribute().isEmpty()) {
-                for (Attribute attribute : fc.getAttribute()) {
-                    String str = attribute.getName() + ":" + attribute.getValue();
+            if (fc.getAtr() != null && !fc.getAtr().isEmpty()) {
+                for (Attribute attribute : fc.getAtr()) {
+                    String str = attribute.getNm() + ":" + attribute.getNm();
                     ub.addParameter(OneM2M.Name.Primitive.ATTRIBUTE.toString(), str);
                 }
             }
 
-            if (fc.getFilterUsage() != null)
-                ub.addParameter(OneM2M.Name.Primitive.FILTER_USAGE.toString(), fc.getFilterUsage().toString());
+            if (fc.getFu() != null)
+                ub.addParameter(OneM2M.Name.Primitive.FILTER_USAGE.toString(), fc.getFu().toString());
 
-            if (fc.getLimit() != null)
-                ub.addParameter(OneM2M.Name.Primitive.LIMIT.toString(), fc.getLimit().toString());
+            if (fc.getLim() != null)
+                ub.addParameter(OneM2M.Name.Primitive.LIMIT.toString(), fc.getLim().toString());
         }
         if (requestPrimitive.getDiscoveryResultType() != null)
             ub.addParameter(OneM2M.Name.Primitive.DISCOVERY_RESULT_TYPE.toString(), requestPrimitive.getDiscoveryResultType().toString());
@@ -126,28 +126,31 @@ public class Prepare {
     }
 
 
-    public static String payload(RequestPrimitive requestPrimitive) {
-
-        try {
-            JAXBElement element=new JAXBElement(new QName(requestPrimitive.getPrimitiveContent().getClass().getSimpleName()),requestPrimitive.getPrimitiveContent().getClass(),requestPrimitive.getPrimitiveContent());
-            JSONJAXBContext context=new JSONJAXBContext(requestPrimitive.getPrimitiveContent().getClass());
-            JSONMarshaller marshaller=context.createJSONMarshaller();
-
-            StringWriter sw=new StringWriter();
-            marshaller.marshallToJSON(element,sw);
-            for(Map.Entry<String,JsonElement> entry:new JsonParser().parse(sw.toString()).getAsJsonObject().entrySet()){
-                return Json.toShortNameJson(entry.getValue().toString());
-            }
-        } catch (JAXBException e) {
-            e.printStackTrace();
-            return null;
-        }
-        return null;
-    }
+//    public static String payload(RequestPrimitive requestPrimitive) {
+//
+//        try {
+//            JAXBElement element=new JAXBElement(new QName(requestPrimitive.getPrimitiveContent().getClass().getSimpleName()),requestPrimitive.getPrimitiveContent().getClass(),requestPrimitive.getPrimitiveContent());
+//            JSONJAXBContext context=new JSONJAXBContext(requestPrimitive.getPrimitiveContent().getClass());
+//            JSONMarshaller marshaller=context.createJSONMarshaller();
+//
+//            StringWriter sw=new StringWriter();
+//            marshaller.marshallToJSON(element,sw);
+//            for(Map.Entry<String,JsonElement> entry:new JsonParser().parse(sw.toString()).getAsJsonObject().entrySet()){
+//                //return Json.toShortNameJson(entry.getValue().toString());
+//                return entry.getValue().toString();
+//            }
+//        } catch (JAXBException e) {
+//            e.printStackTrace();
+//            return null;
+//        }
+//        return null;
+//    }
 
     public static void contentOfResponsePrimitive(String payload,ResponsePrimitive responsePrimitive){
-        System.out.println("payload: " + payload);
+        System.out.println("reponsepayload: " + payload);
         responsePrimitive.setPrimitiveContent(new PrimitiveContent());
-        responsePrimitive.getPrimitiveContent().getAny().add(new JsonParser().parse(Json.tofullNameJson(payload.trim())));
+        //responsePrimitive.getPrimitiveContent().getAny().add(new JsonParser().parse(Json.tofullNameJson(payload.trim())));
+        responsePrimitive.getPrimitiveContent().getAny().add(new JsonParser().parse(payload.trim()));
+
     }
 }

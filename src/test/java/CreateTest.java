@@ -6,6 +6,7 @@ import org.opendaylight.iotdm.client.impl.Http;
 import org.opendaylight.iotdm.constant.OneM2M;
 import org.opendaylight.iotdm.primitive.*;
 
+import java.awt.*;
 import java.math.BigInteger;
 
 /**
@@ -29,17 +30,18 @@ public class CreateTest {
     @Test
     public void createAE(){
         //AE Resource to be created
-        AE ae=new AE();
-        ae.setAppName("testAppName");
-        ae.setAppID("testAppId");
-        ae.setOntologyRef("http://ontology/ref");
 
+        Ae ae = new Ae();
+        ae.setApn("testName");
+        ae.setApi("appID");
+        ae.setOr("http://ontology/ref");
+        ae.setRr(true);
         //Request carrying AE to be created.
-
+        String aepayload = "{\"m2m:ae\":{ \"api\":\"testAppId\", \"apn\":\"testAppName\", \"or\":\"http://ontology/ref\",\"rr\":true}}";
         RequestPrimitive requestPrimitive=new RequestPrimitive();
         requestPrimitive.setFrom("Test_AE_ID");
         //Set Destination from root of Resource for creation
-        requestPrimitive.setTo("ODL-oneM2M-Cse");
+        requestPrimitive.setTo("InCSE1");
         //Resource Name of resource to be created
         requestPrimitive.setName("TestAE");
         //Set OneM2m Operation
@@ -47,14 +49,15 @@ public class CreateTest {
         requestPrimitive.setRequestIdentifier("12345");
         //Set ResourceType to be created
         requestPrimitive.setResourceType(OneM2M.ResourceType.AE.value());
-        requestPrimitive.setPrimitiveContent(new PrimitiveContent());
-        //Request carry resource content
-        requestPrimitive.getPrimitiveContent().getAny().add(ae);
+//        requestPrimitive.setPrimitiveContent(new PrimitiveContent());
+//        //Request carry resource content
+//        requestPrimitive.getPrimitiveContent().getAny().add(aepayload);
 
+        requestPrimitive.setStringpayload(aepayload);
         //Exchange carry the content of request and destination of request
         Exchange exchange=new Exchange();
-        exchange.setHost("64.103.37.47");
-        exchange.setPort("8888");
+        exchange.setHost("localhost");
+        exchange.setPort("8282");
         exchange.setRequestPrimitive(requestPrimitive);
 
         //Initialization of Http client responsible for transmission.
@@ -70,11 +73,8 @@ public class CreateTest {
     @Test
     public void update(){
         //AE Resource to be updated
-        AE ae=new AE();
 
-        //Updated Attribute
-        ae.setOntologyRef("ipad");
-
+        String updateAEpayload = "{\"m2m:ae\":{\"or\":\"rsdfd\"\n" + "}}";
         //Request carrying AE to be updated.
         RequestPrimitive requestPrimitive=new RequestPrimitive();
         requestPrimitive.setFrom("local");
@@ -83,14 +83,15 @@ public class CreateTest {
         //Set OneM2m Operation
         requestPrimitive.setOperation(OneM2M.Operation.UPDATE.value());
         requestPrimitive.setRequestIdentifier("12345");
-        requestPrimitive.setPrimitiveContent(new PrimitiveContent());
+/*        requestPrimitive.setPrimitiveContent(new PrimitiveContent());
         //Request carry resource content
-        requestPrimitive.getPrimitiveContent().getAny().add(ae);
+        requestPrimitive.getPrimitiveContent().getAny().add(ae);*/
 
+        requestPrimitive.setStringpayload(updateAEpayload);
         //Exchange carry the updated content of request and destination of request
         Exchange exchange=new Exchange();
-        exchange.setHost("64.103.37.47");
-        exchange.setPort("8888");
+        exchange.setHost("localhost");
+        exchange.setPort("8282");
         exchange.setRequestPrimitive(requestPrimitive);
 
         //Initialization of Http client responsible for transmission.
@@ -114,8 +115,8 @@ public class CreateTest {
 
         //Exchange carry the content of request and destination of request
         Exchange exchange=new Exchange();
-        exchange.setHost("64.103.37.47");
-        exchange.setPort("8888");
+        exchange.setHost("localhost");
+        exchange.setPort("8282");
         exchange.setRequestPrimitive(requestPrimitive);
 
         //Initialization of Http client responsible for transmission.
@@ -139,8 +140,8 @@ public class CreateTest {
 
         //Exchange carry the content of request and destination of request
         Exchange exchange=new Exchange();
-        exchange.setHost("64.103.37.47");
-        exchange.setPort("8888");
+        exchange.setHost("localhost");
+        exchange.setPort("8282");
         exchange.setRequestPrimitive(requestPrimitive);
 
         //Initialization of Http client responsible for transmission.
@@ -154,9 +155,9 @@ public class CreateTest {
     @Test
     public void createContainerUnderAE(){
         //Container Resource to be created
-        Container container=new Container();
-        container.setOntologyRef("container");
-        container.setMaxNrOfInstances(BigInteger.TEN);
+//        Cnt container=new Cnt();
+//        container.setOr("container");
+//        container.setMni(BigInteger.TEN);
         //Request carrying Container to be created.
         RequestPrimitive requestPrimitive=new RequestPrimitive();
         requestPrimitive.setFrom("local");
@@ -169,9 +170,9 @@ public class CreateTest {
         requestPrimitive.setRequestIdentifier("12345");
         //Set ResourceType to be created
         requestPrimitive.setResourceType(OneM2M.ResourceType.CONTAINER.value());
-        requestPrimitive.setPrimitiveContent(new PrimitiveContent());
+//        requestPrimitive.setPrimitiveContent(new PrimitiveContent());
         //Request carry resource content
-        requestPrimitive.getPrimitiveContent().getAny().add(container);
+        //requestPrimitive.getPrimitiveContent().getAny().add(container);
 
         //Exchange carry the content of request and destination of request
         Exchange exchange=new Exchange();
@@ -229,12 +230,14 @@ public class CreateTest {
         primitive.setFrom("dslink");
         primitive.setTo("InCSE1/container2");
         primitive.setRequestIdentifier("12345");
-        ContentInstance conIn = new ContentInstance();
-        conIn.setContent("contententdssds");
+//        Cin conIn = new Cin();
+//        conIn.setCon("contententdssds");
 
-        primitive.setPrimitiveContent(new PrimitiveContent());
-        primitive.getPrimitiveContent().getAny().add(conIn);
+//        primitive.setPrimitiveContent(new PrimitiveContent());
+//        primitive.getPrimitiveContent().getAny().add(conIn);
 
+        String conpayload = "{\"m2m:cin\":{\"con\":\"rsdfd\"}}";
+        primitive.setStringpayload(conpayload);
         exchange.setRequestPrimitive(primitive);
 
         http.start();

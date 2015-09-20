@@ -109,7 +109,15 @@ public class RequestPrimitive {
     protected String groupRequestIdentifier;
     protected FilterCriteria filterCriteria;
     protected BigInteger discoveryResultType;
+    protected String stringpayload;
 
+    public String getStringpayload() {
+        return stringpayload;
+    }
+
+    public void setStringpayload(String payload) {
+        this.stringpayload = payload;
+    }
     /**
      * Gets the value of the operation property.
      * 

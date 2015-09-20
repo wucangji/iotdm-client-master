@@ -119,7 +119,8 @@ public class Http implements ClientApi,RestconfApi {
 
         if (requestPrimitive.getOperation() == BigInteger.valueOf(1) || requestPrimitive.getOperation() == BigInteger.valueOf(3) ) {
             // create and update contains the payload
-            requestPayload =Prepare.payload(iotdmExchange.getRequestPrimitive());
+            //requestPayload =Prepare.payload(iotdmExchange.getRequestPrimitive());
+            requestPayload = iotdmExchange.getRequestPrimitive().getStringpayload();
         }
 
         exchange.setURL(requestUrl);
@@ -226,9 +227,9 @@ public class Http implements ClientApi,RestconfApi {
         if (requestPrimitive.getResponseType() != null) {
             ResponseTypeInfo rti = requestPrimitive.getResponseType();
 
-            if (!rti.getNotificationURI().isEmpty()) {
+            if (!rti.getNu().isEmpty()) {
                 StringBuilder sb = new StringBuilder();
-                for (String ss : rti.getNotificationURI()) {
+                for (String ss : rti.getNu()) {
                     sb.append("&");
                     sb.append(ss);
                 }
@@ -269,6 +270,8 @@ public class Http implements ClientApi,RestconfApi {
         }
         if(requestPayload!=null){
             root.add("requestPayload",new JsonParser().parse(requestPayload));
+//            System.out.println("requestpayload in http:" + requestPayload);
+//            root.addProperty("requestPayload",requestPayload);
         }
 
         if(responseHeader!=null&&responseHeader.getFieldNamesCollection().size()>0){
