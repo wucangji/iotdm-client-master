@@ -1,3 +1,7 @@
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.opendaylight.iotdm.client.Exchange;
@@ -7,6 +11,7 @@ import org.opendaylight.iotdm.constant.OneM2M;
 import org.opendaylight.iotdm.primitive.*;
 
 import java.awt.*;
+import java.io.IOException;
 import java.math.BigInteger;
 
 /**
@@ -36,8 +41,26 @@ public class CreateTest {
         ae.setApi("appID");
         ae.setOr("http://ontology/ref");
         ae.setRr(true);
+
+        ObjectMapper mapper = new ObjectMapper();
+        String JsonString = "";
+        try {
+            mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
+            mapper.setSerializationInclusion(JsonInclude.Include.NON_EMPTY);
+            JsonString = mapper.writeValueAsString(ae);
+
+        }catch (JsonParseException e) {
+            e.printStackTrace();
+        } catch (JsonMappingException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
         //Request carrying AE to be created.
-        String aepayload = "{\"m2m:ae\":{ \"api\":\"testAppId\", \"apn\":\"testAppName\", \"or\":\"http://ontology/ref\",\"rr\":true}}";
+        //String aepayload = "{\"m2m:ae\":{ \"api\":\"testAppId\", \"apn\":\"testAppName\", \"or\":\"http://ontology/ref\",\"rr\":true}}";
+        String aepayload = "{\"m2m:ae\":" + JsonString + "}";
+        System.out.println("AE Json String: " + aepayload);
         RequestPrimitive requestPrimitive=new RequestPrimitive();
         requestPrimitive.setFrom("Test_AE_ID");
         //Set Destination from root of Resource for creation
