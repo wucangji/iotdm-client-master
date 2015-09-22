@@ -102,7 +102,7 @@ public class CreateTest {
         RequestPrimitive requestPrimitive=new RequestPrimitive();
         requestPrimitive.setFrom("local");
         //Set path of resource to be updated
-        requestPrimitive.setTo("InCSE1/AE1");
+        requestPrimitive.setTo("InCSE1/TestAE");
         //Set OneM2m Operation
         requestPrimitive.setOperation(OneM2M.Operation.UPDATE.value());
         requestPrimitive.setRequestIdentifier("12345");
