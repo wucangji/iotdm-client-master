@@ -56,16 +56,16 @@ public class Http implements ClientApi,RestconfApi {
 
 
     public Http() {
-        httpServer = new Server(PORT);
+        //httpServer = new Server(PORT);
         httpClient = new HttpClient();
-        httpServer.setHandler(new NotificationHandler());
+        //httpServer.setHandler(new NotificationHandler());
         CONTENT_TYPE = "application/vnd.onem2m-res+json";
     }
 
     public void start() {
         try {
             httpClient.start();
-            httpServer.start();
+            //httpServer.start();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -74,7 +74,7 @@ public class Http implements ClientApi,RestconfApi {
     public void stop() {
         try {
             httpClient.stop();
-            httpServer.stop();
+            //httpServer.stop();
         } catch (Exception e) {
             e.printStackTrace();
         }
